@@ -1,0 +1,168 @@
+html{
+  background-color: #f4f4f4;
+}
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  body{
+    cursor: crosshair;
+  }
+  h3{
+    margin:1.5em 0;
+  }   
+  img{
+    cursor: grab;
+  }
+
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:1;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('img/image1.jpg');
+    min-height:100%;
+    z-index:-2;
+  }
+  .mother {
+    display: inline;
+    justify-content: center;
+  }
+  .subMother{
+    display: flex;
+    text-align: center;
+  }
+  .subMotherText{
+  text-align: center; 
+  top:50%;
+  position: relative;
+  text-align-last: center;
+}
+a{
+  text-decoration: none;
+  font-family: "lato",sans-serif;
+}
+  .whiteDiv{
+    width: 0%;
+    height:600px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    background-position: left;
+  }
+  #Lucille{
+    min-height:600px;
+    background-image:url('img/image2.jpg');
+    width: 100%;
+    cursor: url('cursor/shoes/air-force-1.cur'), pointer; 
+  }
+  #whiteLucille{
+    overflow:hidden;
+    font-size:1cm;
+    height:600px;
+    margin-top:250px;
+    background-color: #f4f4f4;
+
+  }
+  #Samuel{
+    min-height:600px;
+    background-image:url('img/sam.jpg');
+    width: 100%;
+    cursor: url('cursor/parapluie.gif'), pointer; 
+
+  } 
+  #whiteSamuel{
+    overflow:hidden;
+    font-size:1cm;
+    height:600px;
+    margin-top:250px;
+    background-color: #f4f4f4;
+
+  }
+  #Punk{
+    min-height:600px;
+    background-image:url('img/punk.jpg');
+    width: 100%;
+    cursor: url('cursor/shoes/vans.cur'),pointer;
+  }
+  #whiteFlora{
+  overflow:hidden;
+  font-size:1cm;
+  height:600px;
+  margin-top:250px;
+  background-color: #f4f4f4;
+  }
+
+  .pimg3{
+    background-image:url('img/image3.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:fixed;
+    top:13%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#282e34;
+    color:#ddd;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+#logoIG{
+  width: 150px;
+  height : 150px; 
+margin-top:calc(100% - 20px);
+position:relative;
+
+}
+.instaboule{
+  position:absolute;
+  margin-left:45%;
+
+}
+  @media(max-width:680px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  

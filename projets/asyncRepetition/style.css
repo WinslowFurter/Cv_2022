@@ -1,0 +1,37 @@
+#monBtn{
+    position:absolute;
+    margin-top: 100px;
+
+}
+#monBtn:hover{
+    background-color: rgb(145, 74, 74);
+}
+#monBtn1{
+    position:absolute;
+    margin-top: 100px;
+    display: flex;
+    width:150px;
+    height:75px;
+    background-color: rgba(240, 128, 128, 0.644);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#monBtn1:hover{
+    background-color: rgb(145, 74, 74);
+}
+
+#monBtn2{
+    position:absolute;
+    margin-top: 100px;
+    display: flex;
+    width:150px;
+    height:75px;
+    background-color: rgba(139, 128, 240, 0.644);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#monBtn2:hover{
+    background-color: rgb(57, 53, 114);
+}
